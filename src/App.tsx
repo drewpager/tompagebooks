@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import './styles.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
       <Header />
