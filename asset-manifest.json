@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/tompagebooks.com/static/css/main.58f3db85.css",
+    "main.js": "/tompagebooks.com/static/js/main.9b992f15.js",
+    "static/js/453.cfc660e9.chunk.js": "/tompagebooks.com/static/js/453.cfc660e9.chunk.js",
+    "static/media/westward-rising-sons.png": "/tompagebooks.com/static/media/westward-rising-sons.17cb72f0812709d0507f.png",
+    "static/media/turbulence-and-alchemy.png": "/tompagebooks.com/static/media/turbulence-and-alchemy.605d1d88d046cfc0470f.png",
+    "static/media/wings-of-glory.png": "/tompagebooks.com/static/media/wings-of-glory.37798fc23c404da27574.png",
+    "static/media/tom-page.png": "/tompagebooks.com/static/media/tom-page.a5ee4597286457db7f42.png",
+    "index.html": "/tompagebooks.com/index.html",
+    "main.58f3db85.css.map": "/tompagebooks.com/static/css/main.58f3db85.css.map",
+    "main.9b992f15.js.map": "/tompagebooks.com/static/js/main.9b992f15.js.map",
+    "453.cfc660e9.chunk.js.map": "/tompagebooks.com/static/js/453.cfc660e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58f3db85.css",
+    "static/js/main.9b992f15.js"
+  ]
+}
