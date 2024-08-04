@@ -1,13 +1,10 @@
 import React from 'react';
 import BookCard from '../components/BookCard';
-import AuthorCard from '../components/AuthorCard';
 import turbulence from '../covers/turbulence-and-alchemy.png';
 import wings from '../covers/wings-of-glory.png';
 import WRS from '../covers/westward-rising-sons.png';
-import tom from '../covers/tom-page.png';
-import '../styles.css';
 
-const Home: React.FC = () => {
+const Books: React.FC = () => {
   const books = [
     {
       title: 'Westward Rising Sons',
@@ -29,23 +26,10 @@ const Home: React.FC = () => {
     },
   ];
 
-  const authors = [
-    {
-      name: 'Tom Page',
-      description: 'Tom is an entrepreneur, author, and documentary filmmaker with a passion for education and learning. From short-form films intended to stir interest in a given area of study to heavily researched and historically accurate books about American History and more, learn more about Tom’s work below:',
-      img: tom,
-    },
-  ];
-
   return (
     <main>
+      <h1 className="tom-h1">Books by Tom Page</h1>
       <section>
-        {authors.map((author, index) => (
-          <AuthorCard key={index} name={author.name} description={author.description} img={author.img} />
-        ))}
-      </section>
-      <section>
-        <h1 className="tom-h1">Books by Tom Page</h1>
         {books.map((book, index) => (
           <BookCard key={index} title={book.title} description={book.description} link={book.link} img={book.img} />
         ))}
@@ -54,4 +38,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Books;

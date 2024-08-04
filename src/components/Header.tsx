@@ -1,13 +1,16 @@
 import React from 'react';
+import '../styles.css';
 
 const Header: React.FC = () => {
   return (
     <header>
-      <h1>Tom Page</h1>
-      <nav>
+      <a href="/">
+        <p className="nav-title">Tom Page</p>
+      </a>
+      {/* <nav>
         <a href="/">Home</a>
         <a href="/books">Books</a>
-      </nav>
+      </nav> */}
     </header>
   );
 };

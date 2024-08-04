@@ -1,21 +1,38 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 5rem 0;
+  padding: 0.5rem;
   box-sizing: border-box;
+  background-color: #0d2438;
+  color: white;
+  font-size: 20px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 header {
-  background-color: #333;
+  background-color: #0d2438;
   color: white;
-  padding: 1rem;
+  padding: 0;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  overflow-x: hidden;
+  position: fixed;
+  height: 5rem;
+  top: 0;
+  /* border-bottom: 1px solid #ddd; */
 }
 
 nav a {
   color: white;
-  margin: 0 1rem;
-  text-decoration: none;
+  margin: 0 2rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .book-card {
@@ -28,6 +45,9 @@ nav a {
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
   }
 
   &.book-card-image {
@@ -35,6 +55,7 @@ nav a {
     justify-self: center;
     align-items: center;
 
+    /* Mobile */
     @media (max-width: 768px) {
       grid-area: 0 / 2;
     }
@@ -45,18 +66,88 @@ nav a {
     justify-content: center;
     align-items: center;
 
+    /* Mobile */
     @media (max-width: 768px) {
       grid-area: 0 / 2;
     }
   }
 }
 
+.author-card-section {
+  display: grid;
+  grid-template-columns: 499px 1fr;
+  gap: 20px;
+  align-items: center;
+  margin: 4rem;
+
+  @media (max-width: 1066px) {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.author-buttons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem;
+
+  @media (max-width: 768px) {
+    display: block;
+    margin: 1rem;
+  }
+}
+
+.header-button {
+  color: white;
+  padding: 1.5rem 2rem;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    display: flex;
+    margin: 1rem;
+  }
+
+  &:hover {
+    background-color: white;
+    color: #0d2438;
+  }
+}
+
 .book-card h2 {
   margin-top: 0;
+  color: white;
+
+  @media (max-width: 768px) {
+    margin-top: 1rem;
+  }
 }
 
 .tom-h1 {
   margin-left: 2rem;
+  text-decoration: none;
+}
+
+.nav-title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 2rem;
+  padding: 1rem;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .buy-amazon-button {
@@ -71,15 +162,13 @@ nav a {
   display: inline-block;
 }
 
-
-
 footer {
-  background-color: #333;
+  background-color: #0d2438;
   color: white;
   text-align: center;
-  padding: 1rem;
-  /* position: fixed; */
-  width: 100%;
+  position: relative;
   bottom: 0;
-  margin-top: 1rem;
+  max-width: 100%;
+  width: 100%;
+  height: fit-content;
 }
