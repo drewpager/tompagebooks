@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "baseUrl": "./",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "outDir": "./build",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
