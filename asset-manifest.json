@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58f3db85.css",
-    "main.js": "/static/js/main.e9271421.js",
+    "main.js": "/static/js/main.cbc3c83e.js",
     "static/js/453.cfc660e9.chunk.js": "/static/js/453.cfc660e9.chunk.js",
     "static/media/westward-rising-sons.png": "/static/media/westward-rising-sons.17cb72f0812709d0507f.png",
     "static/media/turbulence-and-alchemy.png": "/static/media/turbulence-and-alchemy.605d1d88d046cfc0470f.png",
@@ -9,11 +9,11 @@
     "static/media/tom-page.png": "/static/media/tom-page.a5ee4597286457db7f42.png",
     "index.html": "/index.html",
     "main.58f3db85.css.map": "/static/css/main.58f3db85.css.map",
-    "main.e9271421.js.map": "/static/js/main.e9271421.js.map",
+    "main.cbc3c83e.js.map": "/static/js/main.cbc3c83e.js.map",
     "453.cfc660e9.chunk.js.map": "/static/js/453.cfc660e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58f3db85.css",
-    "static/js/main.e9271421.js"
+    "static/js/main.cbc3c83e.js"
   ]
 }
