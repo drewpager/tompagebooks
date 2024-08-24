@@ -16,9 +16,11 @@ const BookCard: React.FC<BookCardProps> = ({ title, description, link, img }) =>
       <div className="book-card-details">
         <h2>{title}</h2>
         <p>{description}</p>
-        <a href={link} className="buy-amazon-button" target="_blank" rel="noopener noreferrer">
+        {link === 'https://www.amazon.com/' ? (<p className="buy-amazon-button">
+          Coming Soon!
+        </p>) : (<a href={link} className="buy-amazon-button" target="_blank" rel="noopener noreferrer">
           Buy on Amazon
-        </a>
+        </a>)}
       </div>
     </div>
   );
