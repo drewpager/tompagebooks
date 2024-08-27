@@ -24,7 +24,7 @@ const Home: React.FC = () => {
     {
       title: 'Wings of Glory',
       description: 'Wings of Glory is the story of American men and women raised in the hardscrabble days of the Great Depression, undaunted in their determination to defeat Axis aggression. It is the story of American industrial might, combined with an unproven doctrine of daylight strategic bombing in the European Theater of Operations, as well as a personal journey of discovery in my attempt to find traces of my father’s participation in this monumental struggle. As I set out to explore my father’s World War Two experiences as a B-24 engineer with the Fifteenth Air Force—including two shoot downs and no loss of crew—I reached out to my favorite college professor, Donald L. Miller (MacCracken Professor of History, Lafayette College), author of such notable works as Masters of the Air, about the Eighth Air Force bombing Axis Europe from airbases in England. In response, and in keeping with the all-inclusive selflessness of the Greatest Generation, Professor Miller encouraged me to write this full history of the Fifteenth Air Force during its eighteen month existence in far southern Italy.',
-      link: 'https://www.amazon.com/',
+      link: 'https://amzn.id/glory',
       img: wings,
     },
   ];
