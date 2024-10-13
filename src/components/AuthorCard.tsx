@@ -16,7 +16,7 @@ const AuthorCard: React.FC<AuthorCardProps> = ({ name, description, img }) => {
       <div className="author-card-details">
         <p>{description}</p>
         <div className="author-buttons">
-          <a href="https://amzn.id/westward-rising-sons" className="header-button" target="_blank" rel="noopener noreferrer">
+          <a href="https://amzn.to/3Nq3NES" className="header-button" target="_blank" rel="noopener noreferrer">
             Amazon
           </a>
           <a href="https://youtube.com/@dailydosedocumentary" className="header-button" target="_blank" rel="noopener noreferrer">
